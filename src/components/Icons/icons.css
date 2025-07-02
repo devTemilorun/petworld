@@ -1,0 +1,20 @@
+.Icons {
+  padding: 40px 30px;
+  background-color: #ffffff;
+}
+
+.Icons img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+
+
+@media (max-width: 600px) {
+  .Icons {
+    padding: 30px 15px;
+  }
+}
