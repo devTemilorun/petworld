@@ -35,14 +35,17 @@ const Footer = () => {
             <a href="#">Toys</a>
             <a href="#">Accessories</a>
           </div>
+          <div>
+            <h4>Links</h4>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of use</a>
+          </div>
         </div>
       </div>
 
       <div className="footer-bottom">
         <div className="footer-policy">
           <p>© PETWORLD 2025</p>
-          <p>Privacy policy</p>
-          <p>Terms of use</p>
         </div>
         <div className="footer-socials">
           <a href="#"><FaFacebookF /></a>
@@ -51,9 +54,14 @@ const Footer = () => {
           <a href="#"><FaTwitter /></a>
         </div>
       </div>
-      <div className="my-name">
+      <div className="my-contact">
         <hr />
-        <h4>Design By: <span>Olawuni Israel oluwatemilorun</span></h4>
+        <h4>Design By:  Olawuni Israel oluwatemilorun 
+            <a 
+              href="mailto:olawuniisrael2020@gmail.com?subject=Hello!&body=Hi,%20I%20would%20like%20to%20contact%20you">
+              click to drop a mail
+            </a>
+          </h4>
       </div>
     </footer>
   )

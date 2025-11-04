@@ -130,27 +130,18 @@
 
 .footer-bottom {
   border-top: 1px solid #eee;
-  padding-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  font-size: 14px;
-  gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: block;
+  text-align: center;
 }
 
-.footer-bottom p {
-  font-weight: 600;
-  font-size: 20px;
+.footer-policy p {
+  font-weight: 800;
+  font-size: 50px;
   line-height: 32px;
 }
 
-.footer-policy {
-  display: flex;
-  gap: 20px;
-}
 
 .footer-socials a {
   margin-left: 18px;
@@ -163,27 +154,20 @@
   color: #2962ff;
 }
 
-.my-name {
-  margin: 30px auto 0;
-  text-align: center;
-}
-
-.my-name hr {
+.my-contact hr {
   width: 500px;
   margin: 0 auto 20px;
   border: 0.5px solid #d0d0d0;
 }
-
-.my-name h4 {
-  font-size: 24px;
-  font-weight: 200;
-  margin: 0;
+.my-contact h4{
+  text-align: center;
+}
+.my-contact h4 a{
+  color: black;
+  padding-left: 5px;
+  text-decoration: underline;
 }
 
-.my-name h4 span {
-  text-transform: uppercase;
-  font-size: 31px;
-}
 
 @media (max-width: 768px) {
   .footer-top {
@@ -194,12 +178,6 @@
   .footer-links {
     flex-direction: column;
     gap: 25px;
-  }
-
-  .footer-bottom {
-    flex-direction: column;
-    text-align: center;
-    gap: 15px;
   }
 
   .footer-socials a {
@@ -218,15 +196,7 @@
     padding: 12px 0;
   }
 
-  .my-name hr {
-    width: 100%;
-  }
-
-  .my-name h4 {
-    font-size: 20px;
-  }
-
-  .my-name h4 span {
-    font-size: 26px;
+  .my-contact hr {
+    width: 95%;
   }
 }

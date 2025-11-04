@@ -21,11 +21,14 @@ const Navbar = () => {
         </div>
 
         <div className={`nav-right ${menuOpen ? 'active' : ''}`}>
-          <a href="#" className="nav-button signup">
-            Sign up
+          <a href="#" className="nav-link">
+            Home
           </a>
-          <a href="#" className="nav-button login">
-            Log in
+          <a href="#" className="nav-link ">
+            About Us
+          </a>
+          <a href="#" className="nav-link ">
+            Contact Us
           </a>
         </div>
 

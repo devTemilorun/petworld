@@ -7,7 +7,7 @@ const Hero = () => {
             <h3>
                 Pet Store <br />& Beyond
             </h3>
-            <p>This is a sample landing page, created with Figma and Anima. No coding involved.</p>
+            <p>This is a simple landing page by Olawuni Israel Oluwatemilorun - a passionate web developer and frontend enthusiast turning ideas into websites </p>
         <button>get started</button>
         </div>
         <div className='Hero-img'>
