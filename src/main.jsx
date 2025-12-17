@@ -4,6 +4,8 @@ import './index.css'
 import App from './App.jsx'
 import "@fontsource/poppins";
 
+import "aos/dist/aos.css";
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

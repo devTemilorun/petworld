@@ -16,43 +16,40 @@ const Footer = () => {
             <button>Send</button>
           </div>
         </div>
-
         <div className="footer-links">
-          <div>
+          <span>
             <h4>Our story</h4>
             <a href="#">FAQ</a>
             <a href="#">Contact</a>
-          </div>
-          <div>
+          </span>
+          <span>
             <h4>Pet care</h4>
             <a href="#">Treatments</a>
             <a href="#">Health</a>
             <a href="#">Hygiene</a>
-          </div>
-          <div>
+          </span>
+          <span>
             <h4>Shop</h4>
             <a href="#">Pet Food</a>
             <a href="#">Toys</a>
             <a href="#">Accessories</a>
-          </div>
-          <div>
+          </span>
+          <span>
             <h4>Links</h4>
             <a href="#">Privacy policy</a>
             <a href="#">Terms of use</a>
-          </div>
+          </span>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <div className="footer-policy">
-          <p>© PETWORLD 2025</p>
-        </div>
-        <div className="footer-socials">
+          <p>© <br /> PETWORLD 2025</p>
+        <span className="footer-socials">
           <a href="#"><FaFacebookF /></a>
           <a href="#"><FaLinkedinIn /></a>
           <a href="#"><FaInstagram /></a>
           <a href="#"><FaTwitter /></a>
-        </div>
+        </span>
       </div>
       <div className="my-contact">
         <hr />

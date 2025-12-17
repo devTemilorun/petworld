@@ -7,7 +7,15 @@ import Comment from './components/Comment/Comment'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
+
+import Aos from "aos";
+import { useEffect } from 'react'
+
 function App() {
+
+  useEffect(()=>{
+    Aos.init();
+  }, [])
 
   return (
     <div>
