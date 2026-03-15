@@ -157,10 +157,10 @@
   margin: 0 auto 20px;
   border: 0.5px solid #d0d0d0;
 }
-.my-contact h4{
+.my-contact div{
   text-align: center;
 }
-.my-contact h4 a{
+.my-contact div a{
   color: black;
   padding-left: 5px;
   text-decoration: underline;

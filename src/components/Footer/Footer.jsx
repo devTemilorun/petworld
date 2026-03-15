@@ -53,12 +53,17 @@ const Footer = () => {
       </div>
       <div className="my-contact">
         <hr />
-        <h4>Design By:  Olawuni Israel oluwatemilorun 
+        <div>
+          <p>
+            © {new Date().getFullYear()} Olawuni Israel Oluwatemilorun.  
+            <span className="mx-3">•</span>
+            Built with passion & code.
+          </p> 
             <a 
-              href="mailto:olawuniisrael2020@gmail.com?subject=Hello!&body=Hi,%20I%20would%20like%20to%20contact%20you">
+              href="mailto:dev.temilorun@gmail.com?subject=Hello!&body=Hi,%20I%20would%20like%20to%20contact%20you">
               click to drop a mail
             </a>
-          </h4>
+          </div>
       </div>
     </footer>
   )
